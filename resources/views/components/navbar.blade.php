@@ -6,9 +6,6 @@
             <nav class="hidden md:flex md:ml-10 flex-grow justify-center">
                 <ul class="flex space-x-6">
                     <li>
-                        <a href="#" class="py-2 text-gray-700 hover:text-blue-500">Home</a>
-                    </li>
-                    <li>
                         <a href="#" class="py-2 text-gray-700 hover:text-blue-500">Produk</a>
                     </li>
                     <li>
