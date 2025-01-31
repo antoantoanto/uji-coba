@@ -1,18 +1,16 @@
 {
     "version": 2,
-
-    "builds": [{
-        "src": "public/build",
-        "use": "@vercel/php",
-        "config": {
-            "distDir": "public"
+    "functions": {
+        "api/index.php": {
+            "runtime": "vercel-php@0.7.3"
         }
-    }],
+    },
+    
     "routes": [{
             "src": "/img(.*)",
             "dest": "/public/img"
         },
-
+    
         {
             "src": "/(.*)",
             "dest": "/api/index.php"
@@ -33,5 +31,6 @@
         "CACHE_DRIVER": "array",
         "LOG_CHANNEL": "stderr",
         "SESSION_DRIVER": "cookie"
-    }
+    },
+    "outputDirectory": "public"
 }

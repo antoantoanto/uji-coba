@@ -11,7 +11,6 @@ export default {
         "./resources/**/*.js",
         "./resources/**/*.vue",
         "./node_modules/flowbite/**/*.js",
-        "./public/**/*.html"
     ],
 
     theme: {
@@ -23,6 +22,9 @@ export default {
     },
 
     plugins: [
-        require('flowbite/plugin')
-    ],
+            require('flowbite/plugin')
+        ]
+        [
+            require('@tailwindcss/forms')
+        ],
 };
