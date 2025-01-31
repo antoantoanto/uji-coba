@@ -1,6 +1,6 @@
-<div class="overflow-hidden bg-white py-24 sm:py-32">
+<div class="{`${classes.allTechnicalList} overflow-hidden bg-white py-24 sm:py-32">
     <div class="mx-auto max-w-7xl px-6 lg:px-8 bg-gradient-to-r from-indigo-500 from-10% via-sky-500 via-30% to-emerald-500 to-90%">
-        <div class="mx-auto grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 sm:gap-y-20 lg:mx-0 lg:max-w-none lg:grid-cols-2">
+        <div class="mx-auto grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 sm:gap-y-20 lg:mx-0 lg:max-w-none lg:grid-cols-2 ${classes.allTechnicalListCol}">
             <div class="lg:pr-8 lg:pt-4">
                 <div class="lg:max-w-lg">
                     <h2 class="text-base/7 font-semibold text-white py-6">Proses Cepat</h2>
