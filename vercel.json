@@ -9,15 +9,7 @@
             "src": "/img(.*)",
             "dest": "/public/img"
         },
-        {
-            "src": "/icon(.*)",
-            "dest": "/public/favicon.ico"
-        },
-        {
-            "src": "/components(.*)",
-            "dest": "/resources/views/components"
-        },
-
+    
         {
             "src": "/(.*)",
             "dest": "/api/index.php"
