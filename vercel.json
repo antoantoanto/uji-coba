@@ -10,6 +10,15 @@
             "dest": "/public/img"
         },
         {
+            "src": "/icon(.*)",
+            "dest": "/public/favicon.ico"
+        },
+        {
+            "src": "/components(.*)",
+            "dest": "/resources/views/components"
+        },
+
+        {
             "src": "/(.*)",
             "dest": "/api/index.php"
         }
@@ -17,7 +26,7 @@
     "env": {
         "APP_ENV": "production",
         "APP_DEBUG": "true",
-        "APP_URL": "https://yourprojectdomain.com",
+        "APP_URL": "https://akarprinting.vercel.app",
 
         "APP_CONFIG_CACHE": "/tmp/config.php",
         "APP_EVENTS_CACHE": "/tmp/events.php",
