@@ -5,11 +5,12 @@
             "runtime": "vercel-php@0.7.3"
         }
     },
+    
     "builds": [{
         "src": "package.json",
         "use": "@vercel/static-build",
         "config": {
-            "distDir": "public"
+            "distDir": "dist"
         }
     }],
     "routes": [{
@@ -24,7 +25,7 @@
     ],
     "env": {
         "APP_ENV": "production",
-        "APP_DEBUG": "true",
+        "APP_DEBUG": "false",
         "APP_URL": "https://akarprinting.vercel.app",
 
         "APP_CONFIG_CACHE": "/tmp/config.php",
@@ -37,6 +38,5 @@
         "CACHE_DRIVER": "array",
         "LOG_CHANNEL": "stderr",
         "SESSION_DRIVER": "cookie"
-    },
-    "outputDirectory": "public"
+    }
 }
