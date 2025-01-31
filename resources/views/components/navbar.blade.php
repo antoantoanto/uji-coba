@@ -1,9 +1,9 @@
 <header class="bg-white fixed-top">
     <div class="container mx-auto px-4 py-6 flex justify-between items-center">
-        <div class="{`${classes.allTechnicalList} flex items-center">
+        <div class="flex items-center">
             <a href="/"><img class="h-8 w-auto mr-4" src="{{ asset('img/LOGO AKAR PRINTING.png') }}" alt=""></a>
             <a href="/"><h1 class="md:text-2xl font-bold text-blue-600">Akar Printing</h1></a>
-            <nav class="hidden md:flex md:ml-10 flex-grow justify-center ${classes.allTechnicalListCol}">
+            <nav class="hidden md:flex md:ml-10 flex-grow justify-center">
                 <ul class="flex space-x-6">
                     <li>
                         <a href="#" class="py-2 text-gray-700 hover:text-blue-500">Produk</a>
@@ -17,7 +17,7 @@
                 </ul>
             </nav>
         </div>
-        <div class="{`${classes.allTechnicalList} flex items-center flex flex-wrap items-center justify-between">
+        <div class="flex items-center flex flex-wrap items-center justify-between">
             <div class="relative">
                 <input type="text" placeholder="Cari produk..." class="border border-gray-300 rounded-full py-2 px-4 focus:outline-none focus:ring focus:ring-blue-500">
                 <button class="absolute right-2 top-2 text-gray-500">
@@ -34,7 +34,7 @@
                 </svg>
             </button>
     <nav class="md:hidden bg-white shadow-md hidden" id="mobile-menu">
-        <ul class="{`${classes.allTechnicalList} flex flex-col space-y-2 p-4 ${classes.allTechnicalListCol}">
+        <ul class="flex flex-col space-y-2 p-4">
             <li>
                 <a href="#" class="text-gray-700 hover:text-blue-500">Home</a>
             </li>

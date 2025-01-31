@@ -6,7 +6,13 @@
         }
     },
     
-    "routes": [{
+    "routes": [
+        {
+            "src": "/css(.*)",
+            "dest": "/resources/css"
+        },
+        
+        {
             "src": "/img(.*)",
             "dest": "/public/img"
         },
